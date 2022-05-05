@@ -1,0 +1,101 @@
+#iqac_tab {
+    font-size: 3.5vh;
+}
+#naac_tab {
+    font-size: 3.5vh;
+}
+#home_tab {
+    font-size: 3.5vh;
+}
+#back_div {
+  background-image: url("back.jpg");
+  background-repeat: no-repeat;
+    height: 70vh;
+}
+
+#head_1 {
+  font-size: 3.5vw;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Radio Canada', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+  position: absolute;
+  top: 70vh;
+  left: 18vw;
+}
+#vision_cont {
+  text-align: left;
+  color: #525252;
+  font-size: 1.2vw;
+
+}
+#vision {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Radio Canada', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.7vw;
+  color: #525252;
+}
+#valval1 {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Radio Canada', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.7vw;
+  color: #525252;
+  position: absolute;
+  left: 8vw;
+  top: 9vh;
+}
+#valval2 {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Radio Canada', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.7vw;
+  color: #525252;
+  position: absolute;
+  left: 36.7vw;
+  top: 9vh;
+}
+#valval3 {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Radio Canada', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.7vw;
+  color: #525252;
+  position: absolute;
+  left: 65.3vw;
+  top: 9vh;
+
+}
+
+#misvis {
+  position: absolute;
+  top: 100vh;
+}
+#aimobj {
+  position: absolute;
+  top: 150vh;
+  background-color: #CACACA;
+  height: auto;
+}
+
+#accordionFlushExample {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Radio Canada', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  width: 18vw;
+}
+/* #air2{
+  position: absolute;
+  background-color: #CACACA;
+} */
