@@ -30,6 +30,14 @@
   font-size: 1.2vw;
 
 }
+
+#vision_cont_new {
+  text-align: left;
+  color: #525252;
+  font-size: 1.2vw;
+
+}
+
 #vision {
   text-align: left;
   font-family: 'Montserrat', sans-serif;
@@ -48,8 +56,8 @@
   font-size: 1.7vw;
   color: #525252;
   position: absolute;
-  left: 8vw;
-  top: 9vh;
+  left: 1.5vw;
+  top: -8vh;
 }
 #valval2 {
   text-align: left;
@@ -60,10 +68,10 @@
   font-size: 1.7vw;
   color: #525252;
   position: absolute;
-  left: 36.7vw;
-  top: 9vh;
+  left: 30.2vw;
+  top: -8vh;
 }
-#valval3 {
+/* #valval3 {
   text-align: left;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Radio Canada', sans-serif;
@@ -76,7 +84,7 @@
   top: 9vh;
 
 }
-
+ */
 #misvis {
   position: absolute;
   top: 100vh;
@@ -85,7 +93,7 @@
   position: absolute;
   top: 180vh;
   background-color: #CACACA;
-  height: auto;
+  height: 100vh;
 }
 
 #accordionFlushExample {
@@ -99,3 +107,9 @@
   position: absolute;
   background-color: #CACACA;
 } */
+
+#vals {
+  position: absolute;
+  top: 25vh;
+  left: 6vw;
+}
