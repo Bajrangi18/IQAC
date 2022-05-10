@@ -15,10 +15,10 @@
 
 #head_1 {
   font-size: 3.5vw;
-  font-family: 'Montserrat', sans-serif;
+/*   font-family: 'Montserrat', sans-serif;
   font-family: 'Radio Canada', sans-serif;
   font-family: 'Roboto', sans-serif;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif; */
   color: #ffffff;
   position: absolute;
   top: 70vh;
@@ -40,19 +40,19 @@
 
 #vision {
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
+/*   font-family: 'Montserrat', sans-serif;
   font-family: 'Radio Canada', sans-serif;
   font-family: 'Roboto', sans-serif;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif; */
   font-size: 1.7vw;
   color: #525252;
 }
 #valval1 {
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
+/*   font-family: 'Montserrat', sans-serif;
   font-family: 'Radio Canada', sans-serif;
   font-family: 'Roboto', sans-serif;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif; */
   font-size: 1.7vw;
   color: #525252;
   position: absolute;
@@ -61,10 +61,10 @@
 }
 #valval2 {
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
+/*   font-family: 'Montserrat', sans-serif;
   font-family: 'Radio Canada', sans-serif;
   font-family: 'Roboto', sans-serif;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif; */
   font-size: 1.7vw;
   color: #525252;
   position: absolute;
@@ -110,7 +110,7 @@
   left: 6vw;
 }
 
-.arrow {
+#naac_button {
   position: absolute;
   top: 100vh;
   left: 47vw;
@@ -124,7 +124,27 @@
   transition: border-width 150ms ease-in-out;
 }
 
-.arrow:hover {
+#naac_button:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+
+#iqac_button {
+  position: absolute;
+  top: 10vh;
+  left: 47vw;
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(225deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+#iqac_button:hover {
   border-bottom-width: 4px;
   border-right-width: 4px;
 }
@@ -137,10 +157,20 @@
   color: #FFFFFF;
 }
 
+#iqac_name {
+  position: absolute;
+  top: 18vh;
+  left: 47.8vw;
+  font-size: 1.6vw;
+  color: #FFFFFF;
+}
 #naac_stuff {
    position: absolute;
    top: 295vh;
    background-color: #000000;
    height: 90vh;
    display: none;
+}
+html {
+  scroll-behavior: smooth;
 }
