@@ -93,7 +93,7 @@
   position: absolute;
   top: 180vh;
   background-color: #CACACA;
-  height: 100vh;
+  height: 115vh;
 }
 
 #accordionFlushExample {
@@ -112,4 +112,31 @@
   position: absolute;
   top: 25vh;
   left: 6vw;
+}
+
+.arrow {
+  position: absolute;
+  top: 100vh;
+  left: 45vw;
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+#naac_name {
+  position: absolute;
+  top: 97vh;
+  left: 45.3vw;
+  font-size: 1.6vw;
+  color: #FFFFFF;
 }
