@@ -142,7 +142,7 @@
   border-width: 0px 1px 1px 0px;
   transform: rotate(225deg);
   transition: border-width 150ms ease-in-out;
-  display: none;
+  
 }
 
 #iqac_button:hover {
@@ -164,7 +164,7 @@
   left: 47.8vw;
   font-size: 1.6vw;
   color: #FFFFFF;
-  display: none;
+  
 }
 #naac_stuff {
    position: absolute;
