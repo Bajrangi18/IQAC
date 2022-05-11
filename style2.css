@@ -1,0 +1,64 @@
+.body{
+    font-family: 'Montserrat','sans-serif';
+}
+#iqac_tab {
+    font-size: 3.5vh;
+}
+#naac_tab {
+    font-size: 3.5vh;
+}
+#home_tab {
+    font-size: 3.5vh;
+}
+/* #back_div {
+  background-repeat: no-repeat;
+} */
+#design1{
+    
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+#bottomCent {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.7vw;
+    color: #ffffff;
+    position: absolute;
+    top: 68vh;
+    left: 9.9vw;
+    font-weight: bolder;
+    padding-left: 30px;
+  }
+
+  .check1{
+      display: flex;
+      
+  }
+  #accordionExample{
+      margin-top: 20px;
+  }
+  #sp1{
+      margin-top: 20px;
+      font-weight: bolder;
+      font-size: 30px;
+  }
+  #styl1{
+     font-weight: bolder; 
+
+    }
+    li{
+        text-align: left;
+    }
+    #fs1{
+        font-size: 15px;
+    }
+
+    #check2{
+        position: absolute;
+        margin-top: 50px;
+    /* top: 150vh; */
+    /* background-color: #CACACA; */
+    background-color: #243141;
+    height: auto;
+    }
